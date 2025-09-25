@@ -6,4 +6,5 @@ COPY . /app
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-CMD ["gunicorn", "app:app", "--bind", "0.0.0.0:10000"]
+# Use Flask's built-in server for simplicity (or gunicorn if preferred)
+CMD ["python", "app.py"]
