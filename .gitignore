@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg-info/
+venv/
+.venv/
+ENV/
+.env
+.env.*
+# Jupyter
+.ipynb_checkpoints/
+# Debug
+*.log
+# Model files (if not needed in repo)
+# model.p
+# Data
+*.pickle
+data/
+temp/
+# OS
+.DS_Store
+Thumbs.db
